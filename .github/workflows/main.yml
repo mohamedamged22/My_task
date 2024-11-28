@@ -18,11 +18,5 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: " login to dockerhub"
-        run: docker login --username ${{ secrets.DOCKER_USERNAME}} --password ${{ secrets.DOCKER_TOOKEN }}
-      
-      - name: " building docker "
-        run: docker build -t ${{ secrets.DOCKER_USERNAME}}/docker-image-creation .
-      
-      - name: " pushing to docker hub "
-        run: docker push ${{ secrets.DOCKER_USERNAME}}/docker-image-creation
+        run: docker login --username mego265 --password dckr_pat_XWqfnOLl-ywXuMGVPemXhLnv0Rs
 
