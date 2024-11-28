@@ -22,5 +22,3 @@ jobs:
       
       - name: " pushing to docker hub "
         run: docker push ${{ secrets.DOCKER_USERNAME}}/docker-image-creation
-
-
