@@ -12,9 +12,6 @@ jobs:
     runs-on: ubuntu-latest 
 
     steps: 
-      - name: 'Before printing the folder containts'
-        run: ls
-
       - uses: actions/checkout@v3
 
       - name: " login to dockerhub"
