@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest 
 
     steps: 
-      - name: 'before printing the folder containts'
+      - name: 'Before printing the folder containts'
         run: ls
 
       - uses: actions/checkout@v3
 
-      - name: 'after printing the folder containts'
+      - name: 'After printing the folder containts'
         run: ls
