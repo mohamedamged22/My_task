@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master
+      -master
 
 
 
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest 
 
     steps: 
-       - name: "before printing the folder containts"
+      - name: "before printing the folder containts"
         run: ls
 	
       - uses: actions/checkout@v3
